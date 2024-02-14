@@ -130,6 +130,7 @@ public class IdentifyWord : DisplayWord
         wordText.text = "";
         tries = 0;
         triesText.text = "TRIES: 0";
+        triedList.text = "";
         gameState = "";
         foreach (TMP_Text Underline in playerGuess)
         {
